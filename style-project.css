@@ -1,0 +1,11 @@
+/* OVERWRITE AND NEW SETTINGS */
+.column{
+    -webkit-transition: background-color 3s; 
+    transition: background-color 3s; /* for browser issues */
+}
+
+.column:hover, .column:active{
+    background-color: rgba(243, 162, 200, 0.3);
+}
+
+/*colours to be changed*/
