@@ -324,3 +324,194 @@ nav {
     top: -5px;
 }
 /* ---------------------------------- */
+
+/* FOOTER */
+footer{
+    color: #000000;
+    text-align: center;
+    padding: 20px 0px;
+}
+/* ---------------------------------- */
+
+/* INTRODUCTION */
+.header-img{
+    border-radius: 70%;
+}
+/* ---------------------------------- */
+
+/* ARTICLE */
+/* Everything here is made with general classes. Find them in the GENERAL section */
+/* ---------------------------------- */
+
+/* ABOUT ME */
+/* Everything here is made with general classes. Find them in the GENERAL section */
+/* ---------------------------------- */
+
+/* PROJECTS */
+/* I also used these card settings on other sub-pages */
+.card{
+    box-shadow: 0 3px 10px rgb(127 110 187 / 0.2); 
+    padding: 20px;
+}
+
+.box{
+    display: block;
+    width: 100px;
+}
+/* ---------------------------------- */
+
+/* CONTACT ME */
+.box-contact{
+    display: block;
+    width: 100%; 
+    text-align: center;
+}
+
+.logo{
+    width: 50px;
+}
+/* ---------------------------------- */
+
+/* SPECIAL THANKS */
+/* Everything here is made with general classes. Find them in the GENERAL section */
+/* ---------------------------------- */
+
+/* RESPONSIVENESS */
+/* Had to pay attention for that wondow.innerWidth when calculated max-width */
+@media screen and (max-width: 867px){
+    body{
+        font-size: 90%;
+    }
+
+    .grid-system-2{
+        grid-template-columns: 1fr;
+    }
+
+    .large{
+        font-size: 4rem;
+    }
+
+    .medium-spacing{
+        font-size: 2.5rem;
+    }
+
+    .main-title-large{
+        font-size: 2rem;
+        text-align: center;  
+        margin: 0;
+    }
+
+    .main-title{
+        text-align: center;
+        margin: 0;
+    }
+
+    .small{
+        font-size: 0.6rem;
+    }
+
+    .max-width{
+        max-width: 300px
+    }
+
+    .max-height{
+        max-height: 250px;
+    }
+
+    .padding-top{
+        padding-top: 10px;
+    }
+    
+    .padding-right{
+        padding-right: 10px;
+    }
+
+    .padding-bottom{
+        padding-bottom: 10px;
+    }
+    
+    .padding-left{
+        padding-left: 10px;
+    }
+
+    .logo{
+        width: 40px;
+    }
+}
+
+/* wrapper on home page looks better with this @media */
+@media screen and (max-width: 750px){
+    .wrapper{
+        flex-direction: column;
+        gap: 20px 0px;
+    }
+
+    .column{
+        flex: 100%;
+    }
+
+    .box{
+        margin: auto;
+    }
+
+    .thanks{
+        text-align: center;
+    }
+}
+
+/* media query for hamburger menu with dropdown */
+@media screen and (max-width: 510px){
+    .main-nav{
+        display: none;
+    }
+
+    .toggle{
+        display: block;
+        background-color: #ffffff;
+        border: 1px solid #fd81bb4d;
+    }
+    
+    .toggle:hover{
+        background-color: #f0e7e7;
+    }
+    
+    #drop:checked+.main-nav{
+        display: block;
+    }
+
+    nav{
+        padding-bottom: 25px;
+    }
+
+    .max-width{
+        max-width: 100%;
+    }
+}
+
+/* media query for smaller screens */
+/* smaller fonts were my way to go */
+@media screen and (max-width: 377px){
+    body{
+        line-height: 1.5rem;
+    }
+
+    .large{
+        font-size: 3rem;
+    }
+
+    .medium-spacing{
+        font-size: 1.5rem;
+    }
+
+    .medium-spacing-halfsize{
+        font-size: 1.5rem;
+    }
+
+    .main-title{
+        font-size: 1rem;
+    }
+
+    .main-title-large{
+        font-size: 1.5rem;
+    }
+}
