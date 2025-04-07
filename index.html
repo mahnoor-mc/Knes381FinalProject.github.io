@@ -1,43 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-  
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Personal Portfolio" />
-  <meta name="author" content="Mahnoor M. Chaudhry" />
-  <title>My Portfolio</title>
-<link rel="stylesheet" href="style.css">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- might change later -->
+    <meta name="description" content="This site showcases my work in kinesiology, programming, and more.">
+    <meta name="keywords" content="Sample text for portfolio template meta tag">
+    <meta name="author" content="Mahnoor Chaudhry">
+    <title>My KNES 381 Project</title>
+    <!-- change the link, these are examples-->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- font for the quote embed code from google fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&family=Golos+Text:wght@400..900&family=Indie+Flower&family=Whisper&display=swap" rel="stylesheet">
+    <!-- font for the body -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&family=Delius&family=Golos+Text:wght@400..900&family=Indie+Flower&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Whisper&display=swap" rel="stylesheet">
+    <!-- font for headings -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&family=Delius&family=Golos+Text:wght@400..900&family=Indie+Flower&family=Whisper&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <header>
-    <nav>
-      <ul class="nav">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="data.html">Data</a></li>
-        <li><a href="video.html">Video</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+    
+<!-- navigation bar, the sticky term keeps the navigation bar at the top -->
+    <nav class="sticky">
+        <label for="drop" class="toggle" id="main-toggle">
+            <span class="nav-icon"></span>
+        </label>
+        <input type="checkbox" id="drop">
+        <ul class="main-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about-me.html">About me</a></li>
+            <li><a href="skill-set.html">Skill-set</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="#contact-me">Contact me</a></li>
+        </ul>
     </nav>
-    <div class="hero">
-      <h1>Welcome to My Portfolio</h1>
-      <p>This site showcases my work in kinesiology, programming, and more.</p>
-    </div>
-  </header>
-
-  <main>
-  <section class="about block">
-    <h2>About Me</h2>
-    <p>Hi! I'm Mahnoor, a kinesiology student passionate about movement science, data, and tech.</p>
-  </section>
-  </main>
-
-  <footer>
-    <p>KNES 381 ©2025 </p>
-  </footer>
-</body>
-
-</html>
+    
+<!-- introduction -->
+    <header class="grid-system-2 w-900 padding">
+    <!-- play around with size later -->
+        <section class="align-center">
+            <h1 class="medium-spacing">Hello, I am</h1>
+            <h1 class="medium-spacing""colorful-letter">Mahnoor Chaudhry</h1>
+            <p class="justify">I might put some kind of comment here, but I'm yet to know what I might put :(.</p>
+        </section>
+        <section class="center align-center">
+            <img class="header-img max-width max-height" src="assets/profile-pic.png" alt="profile-picture">
+        </section>
+    </header>
+    
+    <!-- quote -->
+    <article class="purplegray">
+        <p class="quote uppercase">“The meaning of things lies not in the things themselves, but in our attitude towards them.” - Antoine de Saint-Exupéry </p>
+        <p>This is a quote from one of my favourite books, The Little Prince.</p>
+    </article> 
+    
+    <!-- about me -->
+    <!-- I need to add a png -->
+    <section class="wrapper">
+        <section class="margin-auto">
+            <img class="max-width max-height" src="assets/about-me.png" alt="about-me-logo">
+        </section>
+        <section class="justify align-center">
+            <p class="bold">About me</p>
+            <p> My name is Mahnoor Chaudhry etc etc.</p>
+            <p>More???.</p>
+            <p>IDEK. </p>
+            <p class="padding-top"><a href="about-me.html" class="button-outline">More info</a></p>
+        </section>
+    </section>    
