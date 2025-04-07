@@ -71,8 +71,8 @@ body {
 }
 
 .quote{
-    font-family: 'Indie Flower', cursive, sans-serif;
-    font-size: 1.5em;
+    font-family: 'Sniglet', cursive, sans-serif;
+    font-size: 1.3em;
 }
 
 .uppercase{
@@ -109,7 +109,6 @@ body {
     padding: 20px;
     text-align: center;
 }
-
 
 /* Setting alignments and sizing */
 /* for the flexbox */
