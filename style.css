@@ -22,7 +22,7 @@ body {
 .large{
     font-weight: normal;
     line-height: normal;
-    font-family: 'Delius', Montserrat, sans-serif;
+    font-family: 'Quicksand', Montserrat, sans-serif;
     font-size: 5rem;
     letter-spacing: 4px;
     font-weight: bold;
@@ -38,7 +38,7 @@ body {
 .medium-spacing{
     font-weight: normal;
     line-height: normal;
-    font-family: 'Delius', Montserrat, sans-serif;
+    font-family: 'Quicksand', Montserrat, sans-serif;
     font-size: 4rem;
     letter-spacing: 4px;
     margin: 0px;
@@ -47,7 +47,7 @@ body {
 .medium-spacing-halfsize{
     font-weight: normal;
     line-height: normal;
-    font-family: 'Delius', Montserrat, sans-serif;
+    font-family: 'Quicksand', Montserrat, sans-serif;
     font-size: 2rem;
     letter-spacing: 4px;
     margin: 0px;
