@@ -1,0 +1,94 @@
+/* Reset and base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f9fafb;
+  color: #222;
+}
+
+/* Container for spacing */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+}
+
+/* Navigation */
+nav {
+  background-color: #1f2937;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 1rem 0;
+}
+
+nav ul li {
+  margin: 0 1.5rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #60a5fa;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 5rem 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  color: #555;
+}
+
+/* Sections */
+.block {
+  background: white;
+  padding: 2.5rem;
+  margin: 2rem 0;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+/* Footer positioning */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+/* Footer styling */
+footer {
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
