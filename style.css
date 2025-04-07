@@ -253,7 +253,7 @@ nav {
 
 .main-nav{
     /* change colour */
-    background-color: rgb(253, 249, 249);
+    background-color: rgb(207, 226, 247);
     display: flex;
     list-style-type: none;
     justify-content: center;
@@ -266,7 +266,7 @@ nav {
 }
 
 .main-nav li a {
-    color: #000000;
+    color: #CFE2F7;
     text-decoration: none;
 }
 
@@ -277,10 +277,10 @@ nav {
 }
 
 .sticky {
-    position: -webkit-sticky; /* for Safari */
+    position: -webkit-sticky; 
     position: sticky;
     top: 0;
-    align-self: flex-start; /* <-- this is the fix */
+    align-self: flex-start; 
 }
 
 /* Nav-icon */
@@ -289,7 +289,7 @@ nav {
 }
 
 #main-toggle{
-    border: 1px solid #df36854d;
+    border: 1px solid #BCBDDB;
     float: right;
     padding: 20px;
     /* position: relative; */
@@ -298,7 +298,7 @@ nav {
 
 .nav-icon{
       /* change colour */
-    background-color: #df36854d;
+    background-color: #C6CEE9;
     display: block;
     height: 3px;
     width: 10px;
@@ -308,7 +308,7 @@ nav {
 .nav-icon::before,
 .nav-icon::after{
       /* change colour */
-    background-color: #df36854d;
+    background-color: #B1ACCC;
     content: "";
     display: block;
     height: 100%;
@@ -370,10 +370,7 @@ footer{
 .logo{
     width: 50px;
 }
-/* ---------------------------------- */
 
-/* SPECIAL THANKS */
-/* Everything here is made with general classes. Find them in the GENERAL section */
 /* ---------------------------------- */
 
 /* RESPONSIVENESS */
