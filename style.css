@@ -96,19 +96,20 @@ body {
 }
 
 /* Background colors */
-.darkblue{
+.darkblue {
     background-color: rgba(137, 154, 209, 1);
     margin: 20px auto;
     padding: 20px;
     text-align: center;
-}  
+}
 
-.darkblue-light{
+.darkblue-light {
     background-color: rgba(182, 192, 226, 1);
     margin: 20px auto;
     padding: 20px;
     text-align: center;
-}  
+}
+
 
 /* Setting alignments and sizing */
 /* for the flexbox */
