@@ -78,7 +78,6 @@ nav ul li a:hover {
 .about {
   text-align: left;
   padding: 5rem 2rem;
-  max-width: 800px;
   margin: auto;
 }
 
@@ -88,7 +87,7 @@ nav ul li a:hover {
 }
 
 .about p {
-  font-size: 1.25rem;
+  font-size: 1rem;
   color: #555;
 }
 
