@@ -96,15 +96,15 @@ body {
 }
 
 /* Background colors */
-.purplegray{
-    background-color: rgba(177, 172, 204, 1);
+.darkblue{
+    background-color: rgba(137, 154, 209, 1);
     margin: 20px auto;
     padding: 20px;
     text-align: center;
 }  
 
-.purplegray-light{
-    background-color: rgba(188, 189, 219, 1);
+.darkblue-light{
+    background-color: rgba(182, 192, 226, 1);
     margin: 20px auto;
     padding: 20px;
     text-align: center;
