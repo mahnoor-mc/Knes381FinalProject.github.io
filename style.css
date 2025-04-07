@@ -245,20 +245,47 @@ body {
     list-style-type: none;
 }
 /* ---------------------------------- */
-
-/* NAV */
-nav {
-    margin-bottom: 30px;
+/* ANIMATIONS AND OTHER BEAUTIES */
+.button-outline:hover, .button-outline:active{
+    border: 2px solid  rgba(253, 129, 187, 0.3);
+    background-color: rgba(253, 129, 187, 0.6);
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5%;
+    color: rgb(255, 255, 255);
+    transition: background-color 1s ease, color 1s ease;
 }
 
-.main-nav{
-    /* change colour */
-    background-color: rgb(207, 226, 247);
+.link:hover, .link:active{
+    font-size: 1.2rem;
+    transform: scale(1.5);
+    transition: 1s ease-in-out;
+    /* second solution: */
+    /* font-size: 1.2rem; 
+    transition: font-size 2s ease-in-out;  */
+}
+
+.progress-bar:hover, .progress-bar:active {
+    box-shadow: 5px 5px 5px #cdadcd;
+    transition: box-shadow 1s ease;
+}
+
+/* ---------------------------------- */
+/* Navigation bar */
+nav {
+    background-color: rgba(133, 180, 234, 1); /* added this line */
+    margin-bottom: 30px;
+    padding: 0; /* optional cleanup */
+}
+
+.main-nav {
+    background-color: rgba(133, 180, 234, 1); /* same color */
     display: flex;
     list-style-type: none;
     justify-content: center;
     padding: 20px;
     margin: 0px;
+    width: 100%;
 }
 
 .main-nav li {
@@ -271,7 +298,7 @@ nav {
 }
 
 .main-nav li a:hover {
-    color: rgb(254, 175, 210);
+    color: rgb(254, 175, 210); /* pink hover will change */
     text-decoration: none;
     font-weight: bold;
 }
@@ -280,24 +307,23 @@ nav {
     position: -webkit-sticky; 
     position: sticky;
     top: 0;
-    align-self: flex-start; 
+    align-self: flex-start;
+    z-index: 999; /* makes sure it stays on top of other content */
 }
 
 /* Nav-icon */
-.toggle, #drop{
+.toggle, #drop {
     display: none;
 }
 
-#main-toggle{
-    border: 1px solid #BCBDDB;
+#main-toggle {
+   border: 1px solid #BCBDDB;
     float: right;
     padding: 20px;
-    /* position: relative; */
     user-select: none;
 }
 
-.nav-icon{
-      /* change colour */
+.nav-icon {
     background-color: #C6CEE9;
     display: block;
     height: 3px;
@@ -306,8 +332,7 @@ nav {
 }
 
 .nav-icon::before,
-.nav-icon::after{
-      /* change colour */
+.nav-icon::after {
     background-color: #B1ACCC;
     content: "";
     display: block;
@@ -316,13 +341,14 @@ nav {
     position: absolute;
 }
 
-.nav-icon::before{
+.nav-icon::before {
     top: 5px;
 }
 
-.nav-icon::after{
+.nav-icon::after {
     top: -5px;
 }
+
 /* ---------------------------------- */
 
 /* FOOTER */
