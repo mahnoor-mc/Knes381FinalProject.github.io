@@ -416,7 +416,7 @@ footer{
 }
 
 .project-img {
-  width: 120px;     /* Adjust to the size */
+  width: 240px;     /* Adjust to the size */
   height: auto;     /* Keeps the original aspect ratio */
   display: block;   /* Allows centering with margin */
   margin: 10px auto; /* Adds top/bottom spacing and centers horizontally */
