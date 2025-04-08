@@ -87,12 +87,13 @@ body {
     font-weight: bold;
 }
 
-.colorful-letter{
-    background-image: linear-gradient(135deg, #6a0dad 0%, #0077ff 100%);
-    /* this creates a gradient of colours in the text for a stylistic choice */
+.colorful-letter {
+    background-image: linear-gradient(135deg, #3c0073 0%, #001f4d 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
 }
 
 /* Background colors */
