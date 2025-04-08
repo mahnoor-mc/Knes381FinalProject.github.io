@@ -97,17 +97,9 @@ body {
 }
 
 /* Background colors */
+
 .darkblue {
     background-color: rgba(137, 154, 209, 1);
-    margin: 20px auto;
-    padding: 20px;
-    text-align: center;
-    border-radius: 15px; /* Rounded corners */
-
-}
-
-.darkerblue {
-    background-color: rgba(129, 167, 225, 1);
     margin: 20px auto;
     padding: 20px;
     text-align: center;
@@ -120,6 +112,14 @@ body {
     margin: 20px auto;
     padding: 20px;
     text-align: center;
+}
+
+.darkerblue {
+    background-color: rgba(129, 167, 225, 1);
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+
 }
 
 /* Setting alignments and sizing */
