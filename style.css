@@ -563,3 +563,10 @@ footer{
         font-size: 1.5rem;
     }
 }
+
+
+/* add padding to the .contact-list */
+.contact-list {
+    padding-top: 20px;  /* Adjusting this value for the desired space */
+}
+
