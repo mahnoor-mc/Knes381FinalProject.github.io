@@ -567,6 +567,13 @@ footer{
 
 /* add padding to the .contact-list */
 .contact-list {
-    padding-top: 20px;  /* Adjusting this value for the desired space */
+    padding-top: 25px;  /* Adjusting this value for the desired space */
 }
+
+/* Target the header specifically */
+#contact-me h1.medium-spacing.center {
+    font-size: 2rem;  /* Adjust this value as needed */
+    margin-bottom: 20px;    
+}
+
 
