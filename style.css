@@ -414,6 +414,15 @@ footer{
     display: block;
     width: 100px;
 }
+
+.project-img {
+  width: 120px;     /* Adjust to the size */
+  height: auto;     /* Keeps the original aspect ratio */
+  display: block;   /* Allows centering with margin */
+  margin: 10px auto; /* Adds top/bottom spacing and centers horizontally */
+}
+
+
 /* ---------------------------------- */
 
 /* CONTACT ME */
