@@ -393,7 +393,7 @@ footer{
 /* PROJECTS */
 /* I also used these card settings on other sub-pages */
 .card {
-    box-shadow: 0 3px 10px rgb(127 110 187 / 0.2); 
+    box-shadow: 0 3px 10px rgba(137, 154, 209, 0.7); 
     padding: 20px;
     border: 2px solid #1a1a1a; 
     transition: border 0.3s ease;
@@ -401,7 +401,7 @@ footer{
 }
 
 .card:hover {
-    border: 2px solid rgba(137, 154, 209, 0.7); /* shows on hover */
+    border: 2px solid rgb(127 110 187 / 0.2); /* shows on hover */
 }
 
 
