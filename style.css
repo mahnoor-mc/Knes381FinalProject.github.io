@@ -140,6 +140,11 @@ background-image: linear-gradient(135deg, #9b4dca 0%, #4facfe 100%);
     margin: auto;
 }
 
+/* Step 2 fix: equal height cards */
+.wrapper > .card {
+    flex: 1;
+}
+
 /* for the grid system */
 .grid-system-2{
     display: grid;
