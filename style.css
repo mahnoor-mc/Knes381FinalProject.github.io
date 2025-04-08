@@ -28,7 +28,7 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     margin: 0px;  
-    background-image: linear-gradient(135deg, rgb(250, 113, 283)0%, rgb(255, 142, 134)60%);
+    background-image: linear-gradient(135deg, #8e44ad 0%, #3498db 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
