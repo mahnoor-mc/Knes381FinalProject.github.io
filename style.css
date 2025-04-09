@@ -243,8 +243,8 @@ background-image: linear-gradient(135deg, #9b4dca 0%, #4facfe 100%);
 
 /* Add space between image and text */
 .about-img {
-    margin-right: 20px; /* spacing between image and text */
-    width: 250px; /* adjust as needed */
+    margin-right: 15px; /* spacing between image and text */
+    width: 187.5px; /* adjust as needed */
     height: auto;
 }
 
