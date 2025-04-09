@@ -152,6 +152,12 @@ background-image: linear-gradient(135deg, #9b4dca 0%, #4facfe 100%);
     gap: 1rem;
 }
 
+.grid-system-3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
 .grid-system-4{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
