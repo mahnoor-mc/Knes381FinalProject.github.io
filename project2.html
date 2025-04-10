@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Scratch Maze">
+    <meta name="description" content="Kaggle Python Code">
     <meta name="keywords" content="words">
     <meta name="author" content="Mahnoor Chaudhry">
     <title>Scratch Maze</title>
@@ -44,70 +44,57 @@
 
     <!-- project name -->
     <section class="w-900 padding center">
-        <h2 class="medium-spacing-halfsize">Scratch Maze</h2>
-        <p class="center italic">The Timed Trials</p>
+        <h2 class="medium-spacing-halfsize">Kaggle Python Code</h2>
+        <p class="center italic">VO₂ (oxygen consumption) data</p>
     </section>
 
     <!-- about this project -->
     <section class="w-900 padding center">
         <h3 class="main-title">What Was the Project?</h3>
         <section>
-            <p class="justify">This project was created as part of a class assignment focused on introducing fundamental programming concepts through Scratch, a block-based visual coding platform. I developed a multi-level maze game that combines interactive gameplay with creative storytelling, original design elements, and sound integration.</p>
-            <p class="justify">The game challenges players to navigate through increasingly complex mazes using the arrow keys, while collecting specific items and avoiding or overcoming dynamic obstacles. Each level builds on the previous one, introducing new twists and mechanics to keep the experience engaging. I incorporated a countdown timer to add time-based pressure—if the player fails to complete the maze within the given time, the game ends with a surprising twist.</p>
-            <p class="justify">To enhance the gameplay and make the project truly my own, I designed personalized sprites, wrote a unique storyline, and even created original music to give each level its own mood and atmosphere. I also implemented logic to make the game cheat-resistant, encouraging players to complete the challenges as intended.</p>
-            <p class="justify">While there are still a few small glitches to smooth out, the game runs well overall and reflects a thoughtful blend of coding, creativity, and design. It was a fun way to explore both the technical and artistic sides of game development.</p>
-        </section>
+            <p class="justify">In this project for KNES 381, I analyzed VO₂ (oxygen consumption) data using Python, with a focus on creating dynamic and interpretable visualizations of key physiological variables. Building upon a foundational script provided during class, I adapted the code to work with a new VO₂ dataset. This showcased the power of modular, reusable scripting by requiring only minimal code changes to analyze different datasets.</p>
+            <p class="justify">One of my main contributions was developing dual visualizations of FECO₂ (fraction of expired CO₂) and VCO₂ (volume of expired CO₂) plotted over VO₂. These were displayed as two subplots sharing the same x-axis, allowing for a clear comparative view of the respiratory parameters. I used Matplotlib to create clean, publication-style plots that emphasized clarity and physiological relevance.</p>
+            <p class="justify">To go beyond the basic requirements I implemented advanced functionality by programmatically identifying and plotting threshold indicators for the Gas Exchange Threshold (GET) and the Respiratory Compensation Point (RCP). These markers, similar to the ones demonstrated in the final slide of the course’s Python tools presentation, were calculated and visualized directly within the script.</p>
+            <p class="justify">As part of the assignment submission, I integrated my final Jupyter Notebook with GitHub and Kaggle. This allowed for an interactive and transparent presentation of my code and results. The notebook contains a finalized package that incorporates all previously developed components into a cohesive analysis pipeline. Thanks to the structure of the script, swapping in a new dataset is as simple as changing the file path, enabling automatic analysis and plot generation — an example of efficient, scalable code design.</p> 
+</section>
     </section>
 
     <section class="w-900 padding">
         <h3 class="main-title center">What Did I do?</h3>
-        <p class="justify">Below I'll show some photos on how I made my codes!</p>
+        <p class="justify">Below I'll show some photos of the graphs!</p>
         </section>
     <section class="wrapper">
         <section class="column card justify flex">
-            <p class="bold center">Sample Code for Main Sprite</p>
-            <a href="assets/code1.png" target="_blank">
-            <img class="box project-img" src="assets/code1.png" alt="project1">
+            <p class="bold center">Graph 1</p>
+            <a href="assets/graph1.png" target="_blank">
+            <img class="box project-img" src="assets/graph1.png" alt="project4">
             </a>
         </section>
         <section class="column card justify flex">
-            <p class="bold center">Sample Code for Flying Hippos</p>
-           <a href="assets/code2.png" target="_blank">
-            <img class="box project-img" src="assets/code2.png" alt="project1">
+            <p class="bold center">Graph 2</p>
+           <a href="assets/graph2.png" target="_blank">
+            <img class="box project-img" src="assets/graph2.png" alt="project4">
             </a>
         </section>
         </section>
-    <section class="wrapper">
-        <section class="column card justify flex">
-            <p class="bold center">Sample Code for Items to Collect</p>
-            <a href="assets/code3.png" target="_blank">
-            <img class="box project-img" src="assets/code3.png" alt="project1">
-            </a>
-        </section>
-        <section class="column card justify flex">
-            <p class="bold center">Sample Code for Maze Change</p>
-           <a href="assets/code4.png" target="_blank">
-            <img class="box project-img" src="assets/code4.png" alt="project1">
-            </a>
-        </section>
-    </section>
     <section class="w-900 padding center">
-        <h2 class="medium-spacing-halfsize">Scratch Maze</h2>
-        <p class="center">TRY IT BELOW!</p>
-        <p class="justify"><iframe src="https://scratch.mit.edu/projects/1139736312/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe></p>
+        <h2 class="medium-spacing-halfsize">Python Code</h2>
+        <p class="center">This is some of my code</p>
+        <p class="justify"><iframe src="https://www.kaggle.com/embed/mahnoormchaudhry/knes381-pythonfinal-copy?cellId=1&kernelSessionId=231645892" height="800" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="KNES381-PythonFinal COPY"></iframe></p>
     </section>
     <!-- what did i learn -->
     <section class="w-900 padding center darkblue-light"> 
             <h3 class="main-title">What Did I Learn?</h3>
-        <p class="justify">Through creating this multi-level Scratch maze game, I developed a deeper understanding of block-based programming, including the use of loops, conditional logic, and event-driven design. I learned how to make a character die and respawn under certain conditions, which involved managing variables like health and checkpoints, as well as using broadcasts to trigger scene resets.</p>
-        <p class="justify">I also figured out how to build and link multiple levels, create clickable buttons for navigation and game start, and implement token collection mechanics that tie into player progression. These elements made the game more interactive and helped me think about user experience and gameplay flow. </p>
-        <p class="justify">In addition to the technical side, I had the chance to explore creative design by customizing sprites, writing a storyline, and composing original music to match the mood of the game. This project pushed me to be both logical and imaginative while also sharpening my debugging and problem-solving skills along the way.</p>
+        <p class="justify">Through this project, I strengthened my ability to work with real physiological data using Python. I learned how to read, process, and visualize VO₂ data in a way that was both informative and visually clear. This helped me better understand how coding can support research and analysis in kinesiology.</p>
+        <p class="justify"> I also deepened my knowledge of exercise physiology by implementing threshold indicators like the Gas Exchange Threshold (GET) and Respiratory Compensation Point (RCP). Plotting these required not only technical coding skills but also a strong grasp of the physiological concepts behind them. </p>
+        <p class="justify"> Lastly, I saw firsthand the importance of writing clean, modular code. By creating a script that could be reused across different datasets with just a file path change, I developed a valuable skill in scalable programming. This project gave me a better appreciation for how thoughtful design and organization can make a big difference in both efficiency and usability. </p>
     </section>
 
     <p class="wrapper justify-content"><a href="portfolio.html" class="link-no-scale colorful-letter">Back to Portfolio</a></p>
 
-    <!-- footer -->
-    <footer>@mahnoor-mc ©2025</footer>
+   <!-- footer -->
+    <article class="darkerblue">
+    <footer class="small center bold">@mahnoorKNES381 ©2025</footer>
 </body>
 
 </html>
