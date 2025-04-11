@@ -23,7 +23,7 @@ This is my final submission for **KNES 381: Computer Applications in Kinesiology
   A biomechanics-based breakdown of human movement in sport. Embedded as part of the site with written interpretation of the movement patterns.
 
 - 🎨 **Digital Artwork** 
-A collection of original digital illustrations, showcasing creativity and attention to detail. The artwork reflects a blend of personal expression and technical skills, designed to engage viewers visually.
+A collection of original digital illustrations, showcasing creativity and attention to detail. The artwork reflects a blend of personal expression and technical skills, designed to engage viewers visually. In here I also include photo editing from GIMP!
 
 ---
 
